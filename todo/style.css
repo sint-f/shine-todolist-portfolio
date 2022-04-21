@@ -1,0 +1,107 @@
+/* css reset*/
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  /* end reset css */
+
+  body {
+    background-color: rgb(253, 251, 244);
+  }
+
+  .container {
+      width: 100%;
+  }
+
+  .top {
+      background: #35a731;
+      text-align: center;
+      padding: 75px;
+  }
+
+  .top h1{
+      color: white;
+      font-weight: bold;
+  }
+
+  .todos {
+      margin-top: 5px;
+  }
+
+  .todos .todo{
+      padding: 10px;
+      border: 1px solid #cccccc;
+      margin-bottom: 5px;
+      border-radius: 5px;
+  }
+
+  .todos-container {
+      width: 30%;
+      min-width: 350px;
+      margin: 0 auto;
+  }
+
+  .new-todo input {
+      width: 75%;
+      margin-top: 20px;
+      height: 40px;
+  }
+
+  .new-todo button {
+    width: 23%;
+    height: 40px;
+  }
+
+  .new-todo button .plus {
+    width: 39%;
+  }
+
+  .todos .todo .aanpas {
+    width: 20px;
+    float: right;
+}
+
+.todos .todo .delete {
+  width: 20px;
+  float: right;
+}
+
+.todo input .favo {
+  float: right;
+  width: 20px;
+}
+
+.title {
+  text-transform: capitalize;
+
+}
+
+body .dark {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+}
+
+.dark-mode{
+  background-color: rgb(43, 43, 43);
+  color: white;
+}

@@ -1,0 +1,152 @@
+/* css reset*/
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  /* end reset css */
+
+.menu {
+  padding:16px 25px;
+  height:100%;
+  position:fixed;
+  background-color:#f1f1f1;
+  width: 130px;
+}
+
+.menu-link {
+  display:block;
+  color:#000;
+  padding:8px;
+}
+
+.container {
+  text-align: center;
+  margin-left: 130px;
+}
+
+.top {
+  background-color: #bdbdbd;
+  padding: 75px;
+}
+
+.projecten {
+  clear: both;
+  display: table;
+}
+
+.proto {
+  float: left;
+  width: 50%;
+  border: 4px solid rgb(221, 221, 221);
+  border-radius: 0px 0px 10px 10px;
+  background-color: #f1f1f1;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.naast {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.naast2 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.linkonder {
+  float: right;
+  color: #000;
+  margin-right: 30px;
+}
+
+#map {
+  height: 400px;
+}
+
+.block {
+  position: relative;
+  width: 30%;
+  height: 15vw;
+  transition: left 1s;
+  background-color: #f1f1f1;
+  border: 4px solid rgb(221, 221, 221);
+  border-radius: 10px;
+}
+
+.ruimtepls, h3
+{
+  margin: 0.5%;
+}
+
+.zoom
+{
+  transition: .2s;
+}
+
+.zoom:hover
+{
+  transform: scale(1.1);
+}
+
+.balkonder { 
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 30px;
+  float: right;
+  width: 100%;
+  background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+  background-size: 1800% 1800%;
+
+  -webkit-animation: rainbow 18s ease infinite;
+  -z-animation: rainbow 18s ease infinite;
+  -o-animation: rainbow 18s ease infinite;
+  animation: rainbow 18s ease infinite;}
+
+@-webkit-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-moz-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-o-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@keyframes rainbow { 
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+
+.secret
+{
+  width: 30%;
+  float: left;
+}
